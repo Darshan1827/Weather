@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>weather </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <span id="heading">Weather api</span>
+        <span><img src="https://i.pinimg.com/originals/e8/1d/8d/e81d8d8032101ffab2ddc3fd1e2d8ab1.gif" class="logo"></img></span>
+        <h3>Enter the place name to know its weather infoo</h3>
+        <input type= "text" value="" id="place" placeholder="Enter The Place">
+        <button class = "btn btn-grad" onclick=callMe()>Submit</button>
+        <br>
+        <br>
+
+        <div class="card">
+            <div>
+                <span>Name of place :</span>
+                <span id="name"></span>
+            </div>
+            <div>
+                <span>Country</span>
+                <span id="country"></span>
+            </div>
+            <div>
+
+                <span>longitude</span>
+                <span id="lon"></span>
+            </div>
+            <div>
+                <span>Latitude :</span>
+                <span id="lat"></span>
+            </div>
+            <div>
+                <span>Temperature:</span>
+                <span id="temp"></span>
+            </div>
+            <div>
+                <span>Windspeed :</span>
+                <span id="speed"></span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

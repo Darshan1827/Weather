@@ -1,0 +1,50 @@
+body{
+font-size: 40px;
+text-align: center;
+background: url("https://images.hdqwalls.com/wallpapers/cool-blue-temperature-sunset-2g.jpg");
+background-position: center;
+background-size: cover;
+font-family: Poppins;
+}
+
+.btn{
+    padding: 0.5rem 2rem;
+}
+#place{
+    padding: 0.5rem 2rem; 
+}
+.card{
+    width: 40%;
+    margin: auto;
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter: blur(4px) saturate(100%) contrast(100%) brightness(130%);
+    background: radial-gradient(to bottom left,#ff9797,#f98a05);
+    border-width: 30px;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%)}
+.btn-grad {
+   
+ 
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+ 
+   border-radius: 10px;
+  border: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+.logo{
+    height: 100px;
+    width: 100px;
+}
+#heading{
+    font-size: 70px;
+    font-weight: bolder;
+}
